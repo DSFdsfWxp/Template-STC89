@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "name": "51Calc",
+    "src": [
+        "src/main.c"
+    ],
+    "include": [
+        "."
+    ],
+    "outputDir": "build",
+    "linkOpt": ["RAMSIZE(256)"],
+    "compileOpt": ["OPTIMIZE(11,SIZE)"],
+    "keilBinPath": "D:/tools/keilC51/C51/BIN"
+}
